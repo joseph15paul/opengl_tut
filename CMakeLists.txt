@@ -9,6 +9,8 @@ target_sources(circle PRIVATE circle.cpp glad.c)
 
 target_include_directories(circle PRIVATE "${CMAKE_SOURCE_DIR}/Include")
 
+add_subdirectory(tutorial)
+
 find_package(OpenGL)
 target_link_libraries(circle PRIVATE GL)
 
