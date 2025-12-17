@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.31)
 
 project(circle)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 include_directories("${CMAKE_SOURCE_DIR}/Include")
 
 add_executable(circle)

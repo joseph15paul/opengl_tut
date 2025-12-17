@@ -1,0 +1,10 @@
+#version 330 core
+out vec4 fragColor;
+
+uniform float uniGreen;
+
+
+void main() {
+	fragColor = vec4(0.0, uniGreen, 0.0, 1.0);
+}
+
